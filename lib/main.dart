@@ -157,6 +157,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Container(
               color: Colors.grey,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(12))
+              ),
               child: Text(
                 '$_counter',
                 style: Theme.of(context).textTheme.headline4,
