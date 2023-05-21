@@ -156,8 +156,9 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Container(
-              color: Colors.grey,
+
               decoration: BoxDecoration(
+                  color: Colors.brown,
                 borderRadius: BorderRadius.all(Radius.circular(12))
               ),
               child: Text(
@@ -170,7 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: showNotification,
-        tooltip: 'Increment',
+        tooltip: 'Increment done',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
